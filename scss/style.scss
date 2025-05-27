@@ -4,3 +4,32 @@
   height: 30%;
   margin: 2rem;
 }
+
+// Pour les flèches du menu Général
+.fleches {
+  background-color: rgb(225, 136, 151);
+  border-radius: 3px;
+}
+
+// Taille de la div avec le bouton général
+.taille-div-general {
+  width: 60.5rem;
+  height: auto;
+}
+
+// Taille de la div avec le tableau
+.taille-div-tableau {
+  height: 100%;
+}
+
+// Taille de la div avec les informations sur la chronologie
+.taille-div-chronologie {
+  height: 100%;
+}
+
+// Taille pour les intitulés des actualité du Football
+.taille-chrono {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}

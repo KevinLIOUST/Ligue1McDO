@@ -4,4 +4,28 @@
   margin: 2rem;
 }
 
+.fleches {
+  background-color: rgb(225, 136, 151);
+  border-radius: 3px;
+}
+
+.taille-div-general {
+  width: 60.5rem;
+  height: auto;
+}
+
+.taille-div-tableau {
+  height: 100%;
+}
+
+.taille-div-chronologie {
+  height: 100%;
+}
+
+.taille-chrono {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
