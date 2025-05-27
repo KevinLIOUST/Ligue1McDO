@@ -5,14 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ligue 1 McDO</title>
+
+    <!-- Lien vers Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <!-- Lien pour utiliser JavaScript pour les actions de l'utilisateur -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+    <!-- Lien pour utiliser le fichier CSS pour Web Designer -->
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
+<!-- Corps de la page -->
+
 <body>
-    <header class="bg-primary">
-        <img src="/img/Logo_Ligue1_large.png" alt="Logo_Ligue1_large.png">
-    </header>
-    <main></main>
-    <footer></footer>
+
+    <!-- On travaille sur un container de 75% de largeur -->
+    <div class="container vw-75">
+
+        <!-- L'entête de la page Web -->
+        <header class="bg-primary">
+
+            <!-- Logo -->
+            <img class="img-logo" src="/img/Logo_Ligue1_large.png" alt="Logo_Ligue1_large.png">
+
+            <!-- Barre de navigation -->
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white ms-5 mx-5" aria-current="page" href="url"><b>ACTUS</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ms-5 mx-5" href="url"><b>RESULTATS</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white ms-5 mx-5 bg-black" href="#url"><b>CLASSEMENTS</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main></main>
+        <footer></footer>
+    </div>
 </body>
 
 </html>
